@@ -8,7 +8,10 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
 
 dependencies:
-  stellar: any
+  stellar: 
+   git:
+     url: git://github.com/sunwukonga/dart-stellar-sdk
+     ref: master
   bip39: ^1.0.3
   pointycastle: ^1.0.0
 

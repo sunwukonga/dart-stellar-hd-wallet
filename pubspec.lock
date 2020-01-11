@@ -333,9 +333,9 @@ packages:
   stellar:
     dependency: "direct main"
     description:
-      name: stellar
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../dart-stellar-sdk"
+      relative: true
+    source: path
     version: "0.3.2"
   stream_channel:
     dependency: transitive
